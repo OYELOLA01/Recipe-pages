@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(243, 229, 216);
+}
+.main{
+    background-color: white;
+    max-width: 700px;
+    margin: auto;
+}
+img{
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 1rem;
+}
+h2{
+    color: rgb(138, 87, 76);
+}
+.imgg{
+    margin-left: 3rem;
+    width: 600px;
+}
+.img-om{
+    background-color: rgb(255, 247, 252);
+    border-radius: 10px;
+    height: 120px;
+}
+.preee{
+    color: rgb(132, 18, 104);
+    font-weight: 700;
+}
+.pre{
+    margin-left: 10px;
+}
+.span{
+    margin-left: 1rem;
+}
+.instruct{
+    display: flex;
+    gap: 1rem;
+}
+table{
+    border-spacing: 0;
+}
+td{
+    border-bottom: 1px solid rgb(231, 231, 231);
+}
+.noo{
+    color: rgb(132, 82, 69);
+}
+@media only screen and (max-width: 400px){
+    .main{
+        width: 520px;
+    }
+    .imgg{
+        width: 450px; 
+    }
+}
